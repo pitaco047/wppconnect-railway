@@ -1,4 +1,4 @@
-ROM wppconnect-team/wppconnect-server:latest
+FROM wppconnect-team/wppconnect-server:latest
 
 RUN cat > /usr/src/wpp-server/config.ts << 'EOF'
 import { ServerOptions } from './types/ServerOptions';
